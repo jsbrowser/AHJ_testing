@@ -1,0 +1,126 @@
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+}
+
+.form-inline {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+.form-control {
+    display: block;
+    width: 230px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#submitform {
+    margin-left: 10px;
+}
+
+.btn-success {
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    color: #fff;
+}
+
+.btn {
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-size: 14px;
+    height: 40px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.cards {
+    margin: 10px 0;
+    height: 25px;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.cards li {
+    display: block;
+    float: left;
+}
+
+.card.cdisabled {
+    /* background-position: 0 -25px; */
+    opacity: .3;
+}
+
+.card {
+    float: left;
+    width: 39px;
+    height: 25px;
+    text-indent: -9999px;
+    margin-right: 4px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 39px;
+}
+
+.card.visa {
+    background-image: url(../img/card-visa.png);
+}
+
+.card.master {
+    background-image: url(../img/card-mastercard.png);
+}
+
+.card.amex {
+    background-image: url(../img/card-amex.png);
+}
+
+.card.discover {
+    background-image: url(../img/card-discover.png);
+}
+
+.card.jcb {
+    background-image: url(../img/card-jcb.png);
+    background-size: 55px;
+}
+
+.card.diners_club {
+    background-image: url(../img/card-diners.png);
+    background-size: 47px;
+}
+
+.card.mir {
+    background-image: url(../img/card-mir.png);
+    background-size: 47px;
+}
+
+.text {
+    margin: 1px 10px;
+}
+
+.valid {
+    border-color: green;
+}
+
+.unvalid {
+    border-color: red;
+}
